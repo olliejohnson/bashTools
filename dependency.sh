@@ -10,7 +10,7 @@ apt update
 
 apt-add-repository universe
 
-apt -y install php8.0 php8.0-{cli,mysql,pdo,mbstring,tokeniser,bcmath,xml,fpm,curl,zip} mariadb-server nginx tar unzip git redis-server
+apt -y install php8.0 php8.0-{cli,mysql,pdo,mbstring,tokeniser,bcmath,xml,fpm,curl,zip} mariadb-server nginx-full tar unzip git redis-server
 
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 
