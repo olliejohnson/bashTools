@@ -5,13 +5,13 @@ server_tokens off;
 
 server {
     listen 80;
-    server_name <domain>;
+    server_name minecraft.oliverj.io;
     return 301 https://$server_name$request_uri;
 }
 
 server {
     listen 443 ssl http2;
-    server_name <domain>;
+    server_name minecraft.oliverj.io;
 
     root /var/www/pterodactyl/public;
     index index.php;
